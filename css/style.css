@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+h1 {
+    color: rgb(0, 136, 162);
+    font-size: 52px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 32px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(128, 128, 128);
+}
+
+.menu li {
+    list-style: none;
+    width: 20%;
+}
+
+.menu__item {
+    text-align: center;
+    display: block;
+    padding: 16px 0;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.menu__item:hover {
+    background-color: rgb(0, 136, 162);
+}
+
+.question {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.question .card {
+    flex: 0 1 30%;
+    position: relative;
+    transition: .3s;
+
+
+}
+
+.question .card img {
+    width: 100%;
+}
+
+.question .text {
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+
+.question .card:hover {
+    transform: scale(1.10);
+}
+
+.subtitle {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 400;
+    color: #0088A2;
+    margin-left: 32px;
+
+}
+
+.video img {
+    width: 100%;
+
+}
+
+.video {
+    margin: auto 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
